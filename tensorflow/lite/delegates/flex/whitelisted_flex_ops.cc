@@ -86,6 +86,7 @@ bool IsWhitelistedFlexOp(const std::string& tensorflow_op_name) {
           "Conv2DBackpropFilter",
           "Conv2DBackpropInput",
           "Conv3D",
+          "CombinedNonMaxSuppression",
           "Cos",
           "Cosh",
           "CropAndResize",
